@@ -30,7 +30,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $5,000 in Rime API credits during the startup's first year
+          description: $5,000 in API credits over the first year.
           duration:
             kind: exact
             value: P1Y
@@ -41,7 +41,7 @@ offers:
               minor_units: 500000
             kind: exact
         - benefit_id: ben_02
-          description: Priority support and early access to new Rime features
+          description: Priority support and early access to new features.
           kind: other
       consideration:
         kind: none
