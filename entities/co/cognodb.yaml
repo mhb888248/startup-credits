@@ -30,7 +30,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: $2,000 in credits applied to the startup's account for managed CognoDB usage, covering compute, storage, and backups, valid for 12 months from the day they are applied.
+          description: $2,000 in credits applied to your account. Credits cover managed CognoDB usage, compute, storage and backups.
           duration:
             kind: exact
             value: P1Y
@@ -41,22 +41,16 @@ offers:
               minor_units: 200000
             kind: exact
         - benefit_id: ben_02
-          description: Priority support from the people who build CognoDB, plus help modelling the graph and moving an existing dataset over.
+          description: Priority support from the people who build CognoDB, plus help modelling your graph and moving an existing dataset over.
           kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The applicant applies with an organization email address, not a personal Gmail or Outlook address, that matches an existing CognoDB account.
-          - criterion_id: cri_03
-            kind: manual
-            reason: vendor-discretion
-            statement: A person reviews each application against guidelines that are not hard gates, namely an early-stage startup (roughly pre-Series A or under $5M raised), founded within five years, building a real product on connected data, and new to the credits program.
+        criterion_id: cri_01
+        kind: manual
+        reason: vendor-discretion
+        statement: Early-stage startups building a real product on connected data, roughly pre-Series A or raised under $5M, founded within the last five years, and new to the CognoDB credits program; applicants must apply with an organization email that matches an existing CognoDB account.
     roles:
       terms_authority_entity_id: ent_01m18zk7ywr3ccgwefhz1tq790
       access_operator_entity_id: ent_01m18zk7ywr3ccgwefhz1tq790
