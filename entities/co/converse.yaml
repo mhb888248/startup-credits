@@ -30,7 +30,7 @@ offers:
     economics:
       benefits:
         - benefit_id: ben_01
-          description: ₹6,000 in free credits, received as ₹1,000 in credits every month for the first 6 months.
+          description: ₹6,000 in free credits. Receive ₹1,000 in credits every month for your first 6 months.
           duration:
             kind: exact
             value: P6M
@@ -41,26 +41,16 @@ offers:
               minor_units: 600000
             kind: exact
         - benefit_id: ben_02
-          description: Extended agent limits, priority onboarding with direct help from the technical team, and a direct Slack channel with the engineers building Converse.
+          description: Priority onboarding with direct assistance from the technical team, and a direct Slack channel with the engineers building Converse.
           kind: other
       consideration:
         kind: none
     eligibility:
       rule:
-        kind: all
-        rules:
-          - criterion_id: cri_01
-            kind: manual
-            reason: external-verification
-            statement: The company was founded less than 3 years ago and has raised less than $5M in total funding.
-          - criterion_id: cri_02
-            kind: manual
-            reason: external-verification
-            statement: The company is associated with a recognized startup accelerator, such as Y Combinator, or backed by a verified VC firm.
-          - criterion_id: cri_03
-            kind: manual
-            reason: external-verification
-            statement: The company is a new Converse customer or has not previously received credits through another program.
+        criterion_id: cri_01
+        kind: manual
+        reason: external-verification
+        statement: Founded less than 3 years ago and raised less than $5M in total funding; associated with a recognized startup accelerator (e.g., Y Combinator) or backed by a verified VC firm; a new customer or not previously received credits through another program.
     roles:
       terms_authority_entity_id: ent_01m18zk7yw664z774p9pfh3qqt
       access_operator_entity_id: ent_01m18zk7yw664z774p9pfh3qqt
