@@ -10,6 +10,7 @@ entity:
       valid_from: 2026-08-30T09:21:49.019Z
   category: ai-ml
 profile:
+  summary: Rime provides a text-to-speech API that developers use to add voice to apps, voice interfaces, accessibility tools, and audio content.
   description: Rime provides text-to-speech APIs for building voice interfaces, accessibility applications, and other audio products.
   links:
     site: https://www.rime.ai
@@ -21,7 +22,7 @@ offers:
   - offer_id: off_01m18zk7ywttz2s6wahb110eea
     offer_slug: rime-startup-credits-program
     offer_slug_aliases: []
-    title: Rime Startup Credits Program
+    title: $5,000 in Rime API credits for YC startups
     summary: Eligible Y Combinator startups from W24 onward that use or plan to integrate text-to-speech receive $5,000 in API credits during their first year, priority support, and early feature access.
     lifecycle:
       status: active
@@ -61,6 +62,7 @@ offers:
       access_operator_entity_id: ent_01m18zk7ywbkrzkz02tckj4te6
     access:
       availability: public
+      instructions: Fill out the Rime Startup Program application form linked from the announcement to confirm your YC affiliation and describe your project; approved startups get the credits added to their account.
       method: form
       url: https://tally.so/r/31JO8Q
     source_ids:
